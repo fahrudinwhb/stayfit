@@ -1,0 +1,36 @@
+ul.nav,
+ul.nav * { margin:0;padding:0; }
+ul.nav {
+    float:right;
+    height:2.5em;
+    list-style-type:none;
+}
+ul.nav li {
+    cursor:pointer;
+    float:left;
+    list-style-type:none;
+    font-weight:normal;
+}
+ul.nav li ul {
+
+    cursor:default;
+    width:100%;
+    max-width:100%;
+    height:auto;
+    top:2.5em;
+}
+ul.nav li ul li {
+    float:right;
+    padding:0;
+    border:none;
+    width:auto;
+    max-width:none;
+}
+ul.nav li a {
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+    padding:0 1em;
+    height:2.4em;
+    line-height:2.5em;
+}

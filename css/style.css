@@ -1,0 +1,56 @@
+.c { display: block; padding-top: 5px; border-bottom: 1px dotted #09F; padding-bottom: 5px; }
+
+.cnew {
+background: #41aef8;
+background: -moz-linear-gradient(top,  #41aef8 0%, #c7e0f1 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41aef8), color-stop(100%,#c7e0f1));
+background: -webkit-linear-gradient(top,  #41aef8 0%,#c7e0f1 100%);
+background: -o-linear-gradient(top,  #41aef8 0%,#c7e0f1 100%);
+background: -ms-linear-gradient(top,  #41aef8 0%,#c7e0f1 100%);
+background: linear-gradient(top,  #41aef8 0%,#c7e0f1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41aef8', endColorstr='#c7e0f1',GradientType=0 );
+display: block; 
+padding-top: 5px; 
+padding-bottom: 5px;
+border-bottom: 1px dotted #09F;
+}
+
+.cnew.green {
+background: #41aef8;
+background: -moz-linear-gradient(top,  #41aef8 0%, #f2fbed 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41aef8), color-stop(100%,#f2fbed));
+background: -webkit-linear-gradient(top,  #41aef8 0%,#f2fbed 100%);
+background: -o-linear-gradient(top,  #41aef8 0%,#f2fbed 100%);
+background: -ms-linear-gradient(top,  #41aef8 0%,#f2fbed 100%);
+background: linear-gradient(top,  #41aef8 0%,#f2fbed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41aef8', endColorstr='#f2fbed',GradientType=0 );
+display: block; 
+padding-top: 5px; 
+padding-bottom: 5px;
+border-bottom: 1px dotted #09Fa;
+}
+
+.c-author { float: left; width: 120px; margin-right: 12px; text-align: center; }
+.c-content { width: 365px; float: left; min-height: 80px; position: relative; padding-left: 20px; }
+
+.c-author .pubdate { font-family: Georgia, Palatino, Times, serif; font-style: italic; font-size: 1em; font-weight: normal; line-height: 1.1em; color: #6f7988; }
+.cnew .c-author .pubdate { color: #646861; }
+
+.c-content img.ava { background: #fff; float: right; padding: 3px; margin-left: 12px; margin-right: 10px; }
+
+/** comment form **/
+#comment-form { display: block; }
+
+#comment-form .poster { display: block; margin-bottom: 4px; color: #000; font-size: 1.1em; }
+
+#comment-form .textfield { width: 490px; height: 110px; padding:5px 11px; font-size: 1.2em; color: #000; font-family: "Calibri", Arial, sans-serif; outline: 0; }
+#comment-form button { color: #545454; font-size: 1.1em; font-weight:bold; margin-left: 25px; position: relative; top: -10px; padding: 7px 13px; border: 1px solid #09F; background: #efefef; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; cursor: pointer; }
+#comment-form button:hover { background: #09F; color: #FFF; border-color: #adb3bd; }
+
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
